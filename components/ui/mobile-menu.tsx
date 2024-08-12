@@ -61,16 +61,16 @@ export default function MobileMenu() {
       >
         <ul className="bg-gray-800 px-4 py-2">
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-              Sign in
+            <Link href="https://chatallais.com/chat" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+              注册
             </Link>
           </li>
           <li>
             <Link
-              href="/signup"
+              href="https://chatallais.com/chat"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
-              Sign up
+              登录
             </Link>
           </li>
         </ul>
