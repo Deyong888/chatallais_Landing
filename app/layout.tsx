@@ -4,6 +4,7 @@ import { Inter, Architects_Daughter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
+import GoogleAnalytics from "@/app/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -36,6 +37,14 @@ export default function RootLayout({
           {children}
           <Banner />
         </div>
+        {process.env.NODE_ENV === "development" ? (
+          <></>
+        ) :(
+          <>
+            <GoogleAnalytics />
+          </>
+        )}
+
       </body>
     </html>
   )
