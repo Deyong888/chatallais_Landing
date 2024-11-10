@@ -12,7 +12,7 @@ export default function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">用户感言</h2>
+            <h2 className="h2 mb-4 from-cyan-400 to-purple-500">用户感言</h2>
             <p className="text-xl text-gray-400">体验AIGC带来的创作效率提升，通过星界AI的超强集成能力，用全网最强大模型让自己更胜一筹</p>
           </div>
 

@@ -5,8 +5,8 @@ export default function Features() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">零门槛掌握最先进的AIGC技术，赢得人工智能时代的未来先机</h2>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 ">
+            <h2 className="h2 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">零门槛掌握最先进的AIGC技术，赢得人工智能时代的未来先机</h2>
             <p className="text-xl text-gray-400">我们坚信创新的思想和知识属于全人类,每个人都应该有平等的机会使用最先进的人工智能实现自我价值</p>
           </div>
 
