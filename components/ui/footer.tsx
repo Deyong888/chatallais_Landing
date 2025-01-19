@@ -31,14 +31,18 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">产品</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">教程列表</Link>
+                    <Link href="https://sprunkigames.online" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Sprunki音乐游戏</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">模型竞技场</Link>
+                    <Link href="https://24kwebgames.com" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">24k 网络游戏</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">最新AI资讯</Link>
+                    <Link href="https://dirt-bike.online" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">山地车游戏</Link>
                   </li>
+                  <li className="mb-1">
+                    <Link href="https://subwaysurfersgame.run" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">地铁跑酷</Link>
+                  </li>
+
                 </ul>
               </div>
 
@@ -75,10 +79,10 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">隐私政策</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">联系我们</Link>
+                    <Link href="https://rivalscodes.com" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Rivals Codes</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">API转发平台</Link>
+                    <Link href="https://api.ai4you.top" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">API转发平台</Link>
                   </li>
                 </ul>
               </div>

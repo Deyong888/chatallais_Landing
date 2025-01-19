@@ -72,7 +72,7 @@ export default function Hero() {
                   </a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-800 hover:bg-gray-700 w-full sm:w-auto sm:ml-4" href="#features">
+                  <a className="btn text-white bg-gray-800 hover:bg-gray-700 w-full sm:w-auto sm:ml-4" href="https://linktoai.top">
                     了解更多
                   </a>
                 </div>
