@@ -67,7 +67,7 @@ export default function Hero() {
 
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-gradient-to-r from-purple-500 to-cyan-400 hover:from-purple-600 hover:to-cyan-500 w-full mb-4 sm:w-auto sm:mb-0" href="https://chatallais.com/chat">
+                  <a className="z-10 btn text-white bg-gradient-to-r from-purple-500 to-cyan-400 hover:from-purple-600 hover:to-cyan-500 w-full mb-4 sm:w-auto sm:mb-0" href="https://chatallais.com/chat">
                     开始创作
                   </a>
                 </div>
