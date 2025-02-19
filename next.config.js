@@ -13,6 +13,14 @@ const nextConfig = {
   experimental: {
     mdxRs: true,
   },
+  rewrites: async () => {
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/index.html',
+      },
+    ]
+  },
 }
 
 module.exports = withMDX(nextConfig)

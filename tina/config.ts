@@ -10,30 +10,34 @@ export default defineConfig({
     publicFolder: "public",
   },
   
+  admin: {
+    port: 9001
+  },
+  
   schema: {
     collections: [
       {
         name: "post",
-        label: "博客文章",
+        label: "Posts",
         path: "content/posts",
         format: "mdx",
         fields: [
           {
             type: "string",
             name: "title",
-            label: "标题",
+            label: "Title",
+            isTitle: true,
             required: true,
           },
           {
-            type: "datetime",
-            name: "date",
-            label: "发布日期",
-            required: true,
+            type: "string",
+            name: "excerpt",
+            label: "Excerpt",
           },
           {
             type: "rich-text",
             name: "body",
-            label: "正文内容",
+            label: "Body",
             isBody: true,
           },
         ],
@@ -60,3 +64,4 @@ export default defineConfig({
       },
     ],
   },
+});
